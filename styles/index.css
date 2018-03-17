@@ -1,0 +1,147 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #7979ff;
+  box-shadow: 0px 2px 10px grey;;
+  height: 65px;
+  margin: 0;
+}
+
+i {
+  font-size: 18px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+/* BRAND in nav */
+
+.brandContainer {
+  align-items: center;
+  display: inline-flex;
+  height: 65px;
+  justify-content: center;
+  width: 200px;
+}
+
+.brandContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SignIn in nav */
+
+.signInContainer {
+  display: inline-flex;
+  float: right;
+  margin-right: 60px;
+}
+
+#signIn,
+#logout {
+  color: white;
+  margin-top: 24px;
+  text-decoration: none;
+}
+
+#signIn {
+  padding-bottom: 10px;
+}
+
+#logout {
+  margin-bottom: 10px;
+}
+
+
+#signIn:hover,
+#logout:hover {
+  border-bottom: 2px solid white;
+}
+
+.signed {
+  margin-right: 30px;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+.signed span {
+  color: rgb(219, 219, 219);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Authentication Form */
+
+.form {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px #cecece;
+  height: 500px;
+  margin: 100px auto;
+  width: 400px;
+}
+
+.greeting {
+  font-size: 38px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.form i {
+  font-size: 24px;
+}
+
+.inForm {
+  font-size: 20px;
+  margin: -30px auto;
+  width: 100%;
+}
+
+.inputContainer {
+  margin-top: 70px;
+}
+
+.form input {
+  background-color: #fff0;
+  border: none;
+  border-bottom: 1px solid #7979ff;
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px auto;
+  margin-top: 40px;
+  outline: none;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  width: 240px;
+}
+
+.form button {
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  margin: 55px auto;
+  padding: 10px;
+  width: 160px;
+  background-color: #7979ff;
+  color: white;
+}
+
+.form button:hover {
+  background-color: white;
+  border: 1px solid #7979ff;
+  color: blue;
+}
+
+/*  */
+
+.welcome {
+  text-align: center;
+  margin-top: 60px;
+}

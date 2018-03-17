@@ -1,0 +1,30 @@
+{
+  "name": "expressjs-auth",
+  "version": "1.0.0",
+  "description": "kodilla-task-17.7",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "node_modules/.bin/jshint server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkruszyk/expressjs-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkruszyk/expressjs-auth/issues"
+  },
+  "homepage": "https://github.com/mkruszyk/expressjs-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "pug": "^2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "nodemon": "^1.17.2"
+  }
+}

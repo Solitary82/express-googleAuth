@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title="main-auth!"
+    link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.8/css/all.css' integrity='sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S' crossorigin='anonymous')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='/styles/index.css')
+  body
+    include includes/nav
+    body
+    if(logged)
+        h1.welcome Welcome back,  #{email}
