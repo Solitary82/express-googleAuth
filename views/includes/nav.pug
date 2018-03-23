@@ -4,11 +4,11 @@ nav
       i.fas.fa-adjust
       | main-auth!
   div.signInContainer
-    if (logged)
+    if (user)
       p.signed
         | Signed as
         br
-        span #{email}
+        span #{user.email}
       a(href='/logout')#logout Logout
     else
       a(href='../auth/google')#signIn Sign in

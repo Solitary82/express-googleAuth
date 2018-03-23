@@ -9,5 +9,5 @@ html
   body
     include includes/nav
     body
-    if(logged)
-        h1.welcome Welcome back,  #{email}
+    if(user)
+        h1.welcome Welcome back,  #{user.displayName}

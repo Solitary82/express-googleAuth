@@ -1,5 +1,5 @@
 {
-  "name": "expressjs-auth",
+  "name": "expressjs-googleAuth",
   "version": "1.0.0",
   "description": "kodilla-task-17.7",
   "main": "server.js",
@@ -9,18 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkruszyk/expressjs-auth.git"
+    "url": "git+https://github.com/mkruszyk/expressjs-googleAuth.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkruszyk/expressjs-auth/issues"
+    "url": "https://github.com/mkruszyk/expressjs-googleAuth/issues"
   },
-  "homepage": "https://github.com/mkruszyk/expressjs-auth#readme",
+  "homepage": "https://github.com/mkruszyk/expressjs-googleAuth#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
     "pug": "^2.0.1"
   },
   "devDependencies": {
